@@ -13,13 +13,13 @@ jdbc:
 # redis
 spring:
   redis:
-    database: 2
-      host: localhost
-      port: 3306
-      index: 2
-      pool:
-        max-idle: 8
-        min-idle: 0
-        max-active: 8
-        max-wait: -1
+    # database: 2
+    host: localhost
+    port: 3306
+    index: 2
+    pool:
+      max-idle: 8
+      min-idle: 0
+      max-active: 8
+      max-wait: -1
 
